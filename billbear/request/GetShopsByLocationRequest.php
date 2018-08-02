@@ -47,16 +47,42 @@ class GetShopsByLocationRequest
 	}          
     
  
-	private $id;      
+	private $bankName;      
 
  	
-    public function getId() {
-		return $this->id;
+    public function getBankName() {
+		return $this->bankName;
 	}
 
-	public function setId($id){
-		$this->id = $id;
-		$this->apiParas["id"] = $id;
+	public function setBankName($bankName){
+		$this->bankName = $bankName;
+		$this->apiParas["bankName"] = $bankName;
+	}          
+    
+ 
+	private $category;      
+
+ 	
+    public function getCategory() {
+		return $this->category;
+	}
+
+	public function setCategory($category){
+		$this->category = $category;
+		$this->apiParas["category"] = $category;
+	}          
+    
+ 
+	private $date;      
+
+ 	
+    public function getDate() {
+		return $this->date;
+	}
+
+	public function setDate($date){
+		$this->date = $date;
+		$this->apiParas["date"] = $date;
 	}          
     
 
